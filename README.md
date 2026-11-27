@@ -10,7 +10,7 @@
 
 > *"A space to yap, share feelings, spark conversations, and react—engineered with clean Object-Oriented architecture from data models to web routes."*
 
-[📸 Screenshots](#-app-gallery) • [🚀 Quick Start](#-quick-start) • [🧱 OOP Blueprint](#-object-oriented-programming-oop-in-yapspace) • [🗺️ Project Map](#️-project-structure) • [👥 Team](#-meet-the-yapspace-crew)
+[📸 Screenshots](#-app-gallery) • [🚀 Quick Start](#-quick-start) • [🖥️ Sample Output](#️-sample-output) • [🧱 OOP Blueprint](#-object-oriented-programming-oop-in-yapspace) • [🗺️ Project Map](#️-project-structure) • [👥 Team](#-meet-the-yapspace-crew)
 
 </div>
 
@@ -42,7 +42,7 @@
 | Community Feed | Create Post |
 | :---: | :---: |
 | ![Community Feed](screenshots/community-feed.png) | ![Create Post](screenshots/create-post.png) |
-| **Live Threads, Feelings & Reactions** | **Composing & Publishing a New Post** |
+| **Live Threads, Feelings & Reactions** | **Composing & Publishing a New Post**[cite: 2] |
 
 <details>
 <summary><b>🖼️ View Full-Size Screenshots Stacked (Click to Expand)</b></summary>
@@ -83,7 +83,7 @@ YapSpace-main/
         ├── web/                       # WebServer, Router, Controllers, Views & Assets
         ├── storage/                   # DataStore & TSV persistence helpers
         └── exception/                 # Custom domain exceptions
-```
+```[cite: 1, 2]
 
 <details>
 <summary><b>🔍 Explore Every Package at a Glance (Click to Expand)</b></summary>
@@ -160,19 +160,48 @@ docker run -p 8080:8080 yapspace
 
 ---
 
+## 🖥️ Sample Output
+
+<details>
+<summary><b>📋 View Sample Console & Server Output (Click to Expand)</b></summary>
+
+```text
+==================================================
+          💬 YAPSPACE — SYSTEM STARTUP
+==================================================
+[DB] Connected to MySQL database successfully.
+[AUTH] SessionManager initialized.
+[ROUTER] Registered routes: /, /login, /register, /feed, /post/new
+[SERVER] YapSpace WebServer is up and running!
+
+--- Sample Post & Interaction ---
+Author   : @ronabel (RegularUser)
+Category : Campus Life | Feeling : 😄 Excited
+Title    : Finally seeing our OOP classes talk to each other!
+Comments : 2 | Reactions : 👍 5  ❤️ 4
+```
+
+*(Tip: Replace or paste your actual console/terminal output here from `ConsoleDemo`, `Main`, or your `Test*.java` runs[cite: 1].)*
+
+</details>
+
+---
+
 ## 👥 Meet the YapSpace Crew
 
-| Member | Role | Key Contributions |
-| :--- | :--- | :--- |
-| **Doliente, Ronabel E.** | **Team Leader** | Led team coordination, project planning, and milestone tracking |
-| **Ebora, Rodalyn R.** | **Lead Programmer** | Engineered core Java OOP architecture, services, repositories, and backend logic |
-| **Panganiban, Kristelle Mhae B.** | **UI Designer** | Crafted user interface layouts, views, and visual styling |
+| Member | Role |
+| :--- | :--- |
+| **Doliente, Ronabel E.** | **Team Leader** |
+| **Ebora, Rodalyn R.** | **Lead Programmer** |
+| **Panganiban, Kristelle Mhae B.** | **UI Designer** |
 
 ---
 
 ## 🙏 Acknowledgements
 
-We sincerely thank our professor, **Ms. Fatima Marie Agdon**, for her guidance, mentorship, and instruction in Object-Oriented Programming throughout the development of **YapSpace**.
+* **To God Almighty:** Above all else, we lift our deepest gratitude to God for His constant guidance, strength, and grace, and for blessing us with wisdom, clarity, and knowledge every step of the way as we brought **YapSpace** to life.
+* **To Our Professor, Ms. Fatima Marie Agdon:** Thank you from the bottom of our hearts, Ma'am **Fatima Marie Agdon**, for your patience, dedication, and inspiring teachings in Object-Oriented Programming. Your guidance gave us confidence when bugs felt overwhelming and helped us see how clean code and thoughtful design come together. We truly appreciate the warmth and encouragement you pour into your students.
+* **To Our YapSpace Co-Crew:** Working side by side on **YapSpace** meant late-night brainstorms, shared laughs, debugging hurdles, and celebrating every small win together. Thank you for trusting one another, showing up when things got tough, and turning an idea into something we can all be proud of—this project carries a piece of each of our hearts.
 
 ---
 
