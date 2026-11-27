@@ -10,7 +10,7 @@
 
 > *"A space to yap, share feelings, spark conversations, and react—engineered with clean Object-Oriented architecture from data models to web routes."*
 
-[🚀 Quick Start](#-quick-start) • [🧱 OOP Blueprint](#-object-oriented-programming-oop-in-yapspace) • [🗺️ Project Map](#️-project-structure) • [👥 Team](#-meet-the-yapspace-crew)
+[📸 Screenshots](#-app-gallery) • [🚀 Quick Start](#-quick-start) • [🧱 OOP Blueprint](#-object-oriented-programming-oop-in-yapspace) • [🗺️ Project Map](#️-project-structure) • [👥 Team](#-meet-the-yapspace-crew)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ## ✨ What is YapSpace?
 
-**YapSpace** is a Java-powered social and discussion platform where users can register, log in, express **feelings** and **categories**, publish **posts**, exchange **comments**, and drop **reactions**. It combines a custom Java web server layer, service and repository classes, and MySQL persistence (`schema.sql` and `mysql-connector-j-26.10.0.jar`) alongside storage/TSV helpers, a console demo, test runners, and Docker support[cite: 1].
+**YapSpace** is a Java-powered social and discussion platform where users can register, log in, express **feelings** and **categories**, publish **posts**, exchange **comments**, and drop **reactions**[cite: 1]. It combines a custom Java web server layer, service and repository classes, and MySQL persistence (`schema.sql` and `mysql-connector-j-26.10.0.jar`) alongside storage/TSV helpers, a console demo, test runners, and Docker support[cite: 1].
 
 <details>
 <summary><b>⚡ Interactive Feature Highlights (Click to Expand)</b></summary>
@@ -32,10 +32,42 @@
 
 ---
 
+## 📸 App Gallery
+
+| Landing Page | Login Page |
+| :---: | :---: |
+| ![Landing Page](screenshots/landing-page.png) | ![Login Page](screenshots/login-page.png) |
+| **Welcome & Entry Experience** | **Authentication & Session Sign-In** |
+
+| Community Feed | Create Post |
+| :---: | :---: |
+| ![Community Feed](screenshots/community-feed.png) | ![Create Post](screenshots/create-post.png) |
+| **Live Threads, Feelings & Reactions** | **Composing & Publishing a New Post** |
+
+<details>
+<summary><b>🖼️ View Full-Size Screenshots Stacked (Click to Expand)</b></summary>
+
+### Landing Page
+![Landing Page](screenshots/landing-page.png)
+
+### Login Page
+![Login Page](screenshots/login-page.png)
+
+### Community Feed
+![Community Feed](screenshots/community-feed.png)
+
+### Create Post
+![Create Post](screenshots/create-post.png)[cite: 2]
+
+</details>
+
+---
+
 ## 🗺️ Architecture & Project Structure
 
 ```text
 YapSpace-main/
+├── 📸 screenshots/                      # UI previews (landing, login, feed, create post)
 ├── 🐳 Dockerfile & start-yapspace.bat     # Container & quick-launch scripts
 ├── 🗄️ database/schema.sql               # MySQL database schema
 ├── 📦 lib/mysql-connector-j-26.10.0.jar # JDBC driver
@@ -72,26 +104,26 @@ YapSpace-main/
 
 ## 🧱 Object-Oriented Programming (OOP) in YapSpace
 
-Here is how the four core pillars of **Object-Oriented Programming**—alongside custom exceptions and clean layering—are applied across **YapSpace**:
+Here is how the four core pillars of **Object-Oriented Programming**—alongside custom exceptions and clean layering—are applied across **YapSpace**[cite: 1]:
 
 ### 1. Encapsulation 🔒
-* **Where:** Domain models (`BaseEntity`, `User`, `RegularUser`, `AdminUser`, `Post`, `Comment`, `Reaction`, `Category`, `Feeling`), security/validation utilities (`PasswordHasher`, `Validator`), and web/session classes (`Session`, `SessionManager`, `WebRequest`, `WebResponse`)[cite: 1].
-* **How we applied it:** Internal state and sensitive operations—such as entity fields, active user sessions, password hashing (`PasswordHasher`), and input validation (`Validator`)—are encapsulated within dedicated classes and accessed through controlled methods and service boundaries rather than exposed directly[cite: 1].
+* **Where:** Domain models (`BaseEntity`, `User`, `RegularUser`, `AdminUser`, `Post`, `Comment`, `Reaction`, `Category`, `Feeling`), security/validation utilities (`PasswordHasher`, `Validator`), and web/session classes (`Session`, `SessionManager`, `WebRequest`, `WebResponse`)
+* **How we applied it:** Internal state and sensitive operations—such as entity fields, active user sessions, password hashing (`PasswordHasher`), and input validation (`Validator`)—are encapsulated within dedicated classes and accessed through controlled methods and service boundaries rather than exposed directly[cite: 1]
 
 ### 2. Inheritance 🧬
-* **Where:** `BaseEntity` $\rightarrow$ domain entities (`User`, `Post`, `Comment`, etc.), `User` $\rightarrow$ `RegularUser` and `AdminUser` (paired with `Role`), and `YapException` $\rightarrow$ `AuthenticationException`, `ValidationException`, `PermissionException`, and `NotFoundException`[cite: 1].
+* **Where:** `BaseEntity` $\rightarrow$ domain entities (`User`, `Post`, `Comment`, etc.), `User` $\rightarrow$ `RegularUser` and `AdminUser` (paired with `Role`), and `YapException` $\rightarrow$ `AuthenticationException`, `ValidationException`, `PermissionException`, and `NotFoundException`
 * **How we applied it:**
   * `BaseEntity` centralizes shared base properties for entities so subclasses don't duplicate common fields
   * `RegularUser` and `AdminUser` extend `User` to specialize account types and role-based capabilities while inheriting core user attributes
   * Specific exception classes extend `YapException` so distinct error scenarios share a common parent type while remaining clearly identifiable[cite: 1]
 
 ### 3. Polymorphism 🎭
-* **Where:** `Handler` and `Router` in `yapspace.web`, user role specialization (`User`, `RegularUser`, `AdminUser`, `Role`), and service/repository interactions[cite: 1].
-* **How we applied it:** `Router` dispatches incoming web requests through `Handler` implementations uniformly, allowing different routes and behaviors to be executed through a shared contract without tightly coupling routing logic to every individual endpoint[cite: 1].
+* **Where:** `Handler` and `Router` in `yapspace.web`, user role specialization (`User`, `RegularUser`, `AdminUser`, `Role`), and service/repository interactions
+* **How we applied it:** `Router` dispatches incoming web requests through `Handler` implementations uniformly, allowing different routes and behaviors to be executed through a shared contract without tightly coupling routing logic to every individual endpoint[cite: 1]
 
 ### 4. Abstraction 🧩
-* **Where:** `Handler`, `BaseEntity`, `YapException`, web controllers (`AuthController`, `PostController`), services (`UserService`, `PostService`), repositories (`UserRepository`, `PostRepository`, `CommentRepository`, `ReactionRepository`), storage (`DataStore`, `Tsv`), and `DatabaseConnection`[cite: 1].
-* **How we applied it:** High-level components like `AuthController` and `PostController` interact with services and repositories without needing to manage raw SQL statements, connection details, password hashing mechanics, or low-level storage formats directly[cite: 1].
+* **Where:** `Handler`, `BaseEntity`, `YapException`, web controllers (`AuthController`, `PostController`), services (`UserService`, `PostService`), repositories (`UserRepository`, `PostRepository`, `CommentRepository`, `ReactionRepository`), storage (`DataStore`, `Tsv`), and `DatabaseConnection`
+* **How we applied it:** High-level components like `AuthController` and `PostController` interact with services and repositories without needing to manage raw SQL statements, connection details, password hashing mechanics, or low-level storage formats directly[cite: 1]
 
 <details>
 <summary><b>💡 Architecture & OOP Takeaways (Click to Expand)</b></summary>
