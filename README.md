@@ -1,31 +1,27 @@
-<!-- ========================================================= -->
-<!--                    YAPSPACE                               -->
-<!--             THE UNIVERSE OF THOUGHTS                       -->
-<!-- ========================================================= -->
-
 <div align="center">
 
 <img src="assets/yapspace-animated-banner.gif" width="100%" alt="YapSpace Animated Banner"/>
 
 <br/>
 
-# Y A P S P A C E
+# 🌈 YapSpace
 
-### THE UNIVERSE OF THOUGHTS.
+### YOUR THOUGHTS. YOUR SPACE. YOUR COMMUNITY.
 
-**Your thoughts have a place here.**
+**Share a little. Connect a lot.**
 
-*Share a little. Connect a lot.*
-
-<br/>
-
-[![Java](https://img.shields.io/badge/BUILT_WITH-JAVA-E76F51?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-![Project](https://img.shields.io/badge/PROJECT-SOCIAL_PLATFORM-1E293B?style=for-the-badge)
-![Status](https://img.shields.io/badge/EDITION-ACADEMIC_PROJECT-C17B5C?style=for-the-badge)
+<img src="https://img.shields.io/badge/💜_EXPRESS-8B5CF6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/💙_CONNECT-3B82F6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🧡_SHARE-F97316?style=for-the-badge" />
+<img src="https://img.shields.io/badge/💚_CREATE-10B981?style=for-the-badge" />
 
 <br/>
 
-**A SPACE TO THINK. A PLACE TO CONNECT.**
+[✨ ABOUT](#-welcome-to-yapspace) ·
+[🚀 FEATURES](#-what-can-you-do) ·
+[📸 GALLERY](#-take-a-look-around) ·
+[🧠 OOP](#-the-brains-behind-yapspace) ·
+[👥 TEAM](#-meet-the-creators)
 
 </div>
 
@@ -33,250 +29,195 @@
 
 <div align="center">
 
-## ◈ NAVIGATE YOUR UNIVERSE ◈
+# 🎉 WELCOME TO YAPSPACE!
 
-[01 — ORIGIN](#-01--the-origin) &nbsp; ◆ &nbsp;
-[02 — FEATURES](#-02--the-experience) &nbsp; ◆ &nbsp;
-[03 — PREVIEW](#-03--inside-yapspace) 
-
-[04 — OOP](#-04--the-code-behind-the-universe) &nbsp; ◆ &nbsp;
-[05 — TECHNOLOGY](#-05--the-technology) &nbsp; ◆ &nbsp;
-[06 — TEAM](#-06--the-creators)
+### A little space for BIG thoughts.
 
 </div>
 
----
+YapSpace is a community-based social platform where users can express themselves, share experiences, and connect with others.
 
-# ◈ 01 — THE ORIGIN
-
-## Every thought begins somewhere.
-
-In a world where people have something to say, **YapSpace** gives them a place to say it.
-
-YapSpace is a community-based social platform that allows users to express their thoughts, share experiences, and interact with other people through posts, comments, and reactions.
-
-Built with a welcoming interface and organized functionality, it transforms simple conversations into opportunities for connection.
+Think of it as your digital hangout: create a post, share your feelings, react to someone's thoughts, and join the conversation!
 
 <div align="center">
 
-### OUR PHILOSOPHY
+💜 **BE YOURSELF.**
 
-# THINK.  
-# SHARE.  
-# CONNECT.
+💙 **SPEAK YOUR MIND.**
 
-*Because every voice deserves a space.*
+🧡 **CONNECT WITH OTHERS.**
 
 </div>
 
 ---
 
-# ◈ 02 — THE EXPERIENCE
+# 🚀 WHAT CAN YOU DO?
 
-## More than just a place to post.
+Discover the features that make YapSpace a space for everyone!
 
-Explore what YapSpace brings to its community.
-
-| EXPERIENCE | WHAT IT DOES |
+| 🎨 FEATURE | 💬 WHAT IT DOES |
 |:---|:---|
-| ◉ **Create an Account** | Register and become part of the community. |
-| ◈ **Secure Login** | Access your account. |
-| ▤ **Community Feed** | Discover thoughts shared by other users. |
-| ✎ **Create a Post** | Express yourself through your own posts. |
-| ⟳ **Manage Posts** | Edit and delete your own posts. |
-| ♡ **Reactions** | Support, Relate, and Encourage others. |
-| ◎ **Comments** | Join conversations and interact. |
-| ▣ **My Posts** | View your published content. |
-| ↗ **Logout** | End your current session. |
-
-<details>
-<summary><strong>✦ DISCOVER THE THREE REACTIONS</strong></summary>
-
-| REACTION | MEANING |
-|:---|:---|
-| ❤️ Support | Show appreciation and support. |
-| 💬 Relate | Let someone know you understand. |
-| ✨ Encourage | Give someone a little motivation. |
-
-</details>
-
----
-
-# ◈ 03 — INSIDE YAPSPACE
-
-## A closer look at the experience.
-
-*Every screen is designed to make sharing and connecting simple.*
-
-<details>
-<summary>01 / THE FIRST IMPRESSION — Landing Page</summary>
-
-<br/>
+| 👤 **Register** | Create your own account. |
+| 🔐 **Login** | Enter your personal account. |
+| 🏠 **Community Feed** | Explore posts from the community. |
+| ✍️ **Create a Post** | Share your thoughts and experiences. |
+| 📝 **Edit & Delete** | Manage your own posts. |
+| 💬 **Comments** | Join conversations. |
+| ❤️ **Reactions** | Support, Relate, and Encourage posts. |
+| 📂 **My Posts** | View your own published posts. |
+| 🚪 **Logout** | Securely end your session. |
 
 <div align="center">
 
-![YapSpace Landing Page](screenshots/landing-page.png)
+### 💗 THREE WAYS TO SPREAD GOOD VIBES
 
-**WELCOME TO YOUR SPACE.**
-
-</div>
-
-</details>
-
-<details>
-<summary>02 / YOUR ENTRY POINT — Login Page</summary>
-
-<br/>
-
-<div align="center">
-
-![YapSpace Login Page](screenshots/login-page.png)
-
-**YOUR COMMUNITY STARTS HERE.**
-
-</div>
-
-</details>
-
-<details>
-<summary>03 / THE COMMUNITY — Feed Page</summary>
-
-<br/>
-
-<div align="center">
-
-![YapSpace Community Feed](screenshots/community-feed.png)
-
-**WHERE THOUGHTS MEET PEOPLE.**
-
-</div>
-
-</details>
-
-<details>
-<summary>04 / YOUR VOICE — Create a Post</summary>
-
-<br/>
-
-<div align="center">
-
-![YapSpace Create a Post](screenshots/create-post.png)
-
-**SAY WHAT'S ON YOUR MIND.**
-
-</div>
-
-</details>
-
-<div align="center">
-
-*Four screens. One community. Endless thoughts.*
+| ❤️ SUPPORT | 💬 RELATE | ✨ ENCOURAGE |
+|:---:|:---:|:---:|
+| Show appreciation | Show understanding | Give motivation |
 
 </div>
 
 ---
 
-# ◈ 04 — THE CODE BEHIND THE UNIVERSE
+# 📸 TAKE A LOOK AROUND!
 
-## Four principles. One foundation.
-
-YapSpace applies the four fundamental principles of Object-Oriented Programming.
-
-Explore each concept to understand how OOP contributes to software organization.
+*Don't just read about it. Explore it!*
 
 <details>
-<summary>01 — 🔒 ENCAPSULATION | Protecting the Data</summary>
+<summary>🌟 01 — LANDING PAGE</summary>
 
-**THE CONCEPT**
+<div align="center">
 
-Encapsulation combines data and the methods that operate on that data within a class. It also controls access to an object's information.
+### YOUR STORY STARTS HERE.
 
-**IN YAPSPACE**
+![Landing Page](screenshots/landing-page.png)
 
-User and post-related information are organized within their respective classes, helping keep application data structured.
+</div>
 
 </details>
 
 <details>
-<summary>02 — 🧬 INHERITANCE | Reusing Functionality</summary>
+<summary>🔐 02 — LOGIN PAGE</summary>
 
-**THE CONCEPT**
+<div align="center">
+
+### WELCOME BACK!
+
+![Login Page](screenshots/login-page.png)
+
+</div>
+
+</details>
+
+<details>
+<summary>💬 03 — COMMUNITY FEED</summary>
+
+<div align="center">
+
+### WHERE EVERYONE HAS SOMETHING TO SAY.
+
+![Community Feed](screenshots/community-feed.png)
+
+</div>
+
+</details>
+
+<details>
+<summary>✍️ 04 — CREATE A POST</summary>
+
+<div align="center">
+
+### YOUR THOUGHTS DESERVE TO BE SHARED.
+
+![Create a Post](screenshots/create-post.png)
+
+</div>
+
+</details>
+
+---
+
+# 🧠 THE BRAINS BEHIND YAPSPACE
+
+### Four OOP principles. One awesome application.
+
+<details>
+<summary>💜 01 — ENCAPSULATION</summary>
+
+**Keep related data and behaviors together!**
+
+Encapsulation combines data and methods inside a class and controls access to that data.
+
+**In YapSpace:** User and post information are organized within their respective classes.
+
+</details>
+
+<details>
+<summary>💙 02 — INHERITANCE</summary>
+
+**Reuse code. Build smarter!**
 
 Inheritance allows a class to acquire properties and methods from another class.
 
-**IN YAPSPACE**
-
-Inheritance can be demonstrated through classes that extend other classes, allowing shared properties and behaviors to be reused.
+**In YapSpace:** Related classes can reuse common properties and behaviors through inheritance where implemented.
 
 </details>
 
 <details>
-<summary>03 — 🔄 POLYMORPHISM | Different Behaviors</summary>
+<summary>🧡 03 — POLYMORPHISM</summary>
 
-**THE CONCEPT**
+**One interface. Different behaviors!**
 
-Polymorphism allows the same method or operation to have different behaviors depending on the object or implementation.
+Polymorphism allows methods to behave differently depending on the object or implementation.
 
-**IN YAPSPACE**
-
-Polymorphism is demonstrated where shared methods can be implemented or overridden to provide different behaviors.
+**In YapSpace:** Shared methods can have different implementations where polymorphism is used in the Java code.
 
 </details>
 
 <details>
-<summary>04 — 🎭 ABSTRACTION | Hiding Complexity</summary>
+<summary>💚 04 — ABSTRACTION</summary>
 
-**THE CONCEPT**
+**Hide the complexity. Show what matters!**
 
-Abstraction hides unnecessary implementation details and exposes essential functionality.
+Abstraction hides unnecessary implementation details while exposing essential functionality.
 
-**IN YAPSPACE**
-
-The application's components organize internal operations so that users can interact with features without needing to understand the underlying implementation.
+**In YapSpace:** Application components organize internal operations so users can access features without understanding all the underlying code.
 
 </details>
-
-<div align="center">
-
-**THE RESULT**
-
-Clean organization. Reusable code. Structured development.
-
-</div>
 
 ---
 
-# ◈ 05 — THE TECHNOLOGY
+# 🛠️ OUR TECH TOOLBOX
 
-## The tools behind the experience.
-
-| TECHNOLOGY | ROLE IN THE PROJECT |
+| 💻 TECHNOLOGY | 🎯 PURPOSE |
 |:---|:---|
-| ☕ **Java** | Main programming language |
-| 🌐 **HTML** | Web page structure |
-| 🎨 **CSS** | Visual presentation |
-| 📁 **TSV Files** | Local application data storage |
-| 🐙 **Git & GitHub** | Version control and collaboration |
-| 💻 **Visual Studio Code** | Development environment |
+| ☕ Java | Main programming language |
+| 🌐 HTML | Web page structure |
+| 🎨 CSS | Interface styling |
+| 📁 TSV Files | Local data storage |
+| 🐙 Git & GitHub | Version control |
+| 💡 Visual Studio Code | Development environment |
 
-### THE PROJECT ARCHITECTURE
+---
+
+# 📂 PROJECT STRUCTURE
 
 ```text
-YapSpace/
+🌈 YapSpace/
 │
-├── assets/
+├── 🎨 assets/
 │   └── yapspace-animated-banner.gif
 │
-├── screenshots/
+├── 📸 screenshots/
 │   ├── landing-page.png
 │   ├── login-page.png
 │   ├── community-feed.png
 │   └── create-post.png
 │
-├── lib/
+├── 📦 lib/
 │   └── mysql-connector-j-26.10.0.jar
 │
-├── src/
+├── 💻 src/
 │   └── yapspace/
 │       ├── exception/
 │       ├── model/
@@ -286,15 +227,17 @@ YapSpace/
 │       ├── web/
 │       └── Main.java
 │
-├── README.md
-├── Dockerfile
-└── YapSpace.java
+└── README.md
 ```
 
-### TERMINAL ACCESS — RUN YAPSPACE
+---
+
+# 🚀 LET'S GET YAPSPACE RUNNING!
+
+### Follow these steps to launch your application.
 
 <details>
-<summary><strong>01 / Clone the repository</strong></summary>
+<summary>💻 STEP 01 — Clone the repository</summary>
 
 ```bash
 git clone https://github.com/dolienteronabels-gif/YapSpace.git
@@ -304,7 +247,9 @@ cd YapSpace
 </details>
 
 <details>
-<summary><strong>02 / Compile the project (PowerShell)</strong></summary>
+<summary>⚙️ STEP 02 — Compile the Java files</summary>
+
+Run in PowerShell:
 
 ```powershell
 New-Item -ItemType Directory -Force out
@@ -317,7 +262,7 @@ javac -cp "lib\mysql-connector-j-26.10.0.jar" -d out $files
 </details>
 
 <details>
-<summary><strong>03 / Launch the application</strong></summary>
+<summary>▶️ STEP 03 — Run the application</summary>
 
 ```powershell
 java -cp "out;lib\mysql-connector-j-26.10.0.jar" yapspace.Main
@@ -326,106 +271,96 @@ java -cp "out;lib\mysql-connector-j-26.10.0.jar" yapspace.Main
 </details>
 
 <details>
-<summary><strong>04 / Enter the YapSpace universe</strong></summary>
+<summary>🌐 STEP 04 — Open YapSpace</summary>
 
-Open your browser and visit:
+Visit this address in your browser:
 
-```text
-http://localhost:8080
-```
+**http://localhost:8080**
 
 </details>
 
 <div align="center">
 
-### ✦ YOU'RE IN. ✦
+### 🎊 YOU'RE READY TO YAP!
 
 </div>
 
 ---
 
-# ◈ 06 — THE CREATORS
+# ⚠️ A LITTLE NOTE ABOUT THE CURRENT VERSION
 
-## Behind every idea is a team.
-
-<div align="center">
-
-### TEAM 04
-
-# RO RO ROW YOUR CODE
-
-*Three minds. One shared vision.*
-
-</div>
-
-| MEMBER | ROLE |
-|:---|:---|
-| **Doliente, Ronabel E.** | Team Leader |
-| **Ebora, Rodalyn R.** | Lead Programmer |
-| **Panganiban, Kristelle Mhae B.** | UI Designer |
-
-### OUR ACADEMIC HOME
-
-**Batangas State University – Alangilan Campus**
-
-Bachelor of Science in Information Technology
-
-**Project Instructor:** Ms. Fatima Marie P. Agdon
-
----
-
-# ◈ PROJECT NOTES
-
-<details>
-<summary><strong>Current project limitations</strong></summary>
-
-The current implementation has the following limitations:
-
-- Data is stored locally using TSV files.
-- Application data is not automatically synchronized across computers.
+- Application data is stored locally using TSV files.
+- Data is not automatically synchronized across different computers.
 - Private messaging is not currently available.
 - Image uploads in posts are not currently supported.
 - Post searching and reporting are not currently available.
 
-</details>
-
-<details>
-<summary><strong>Data storage information</strong></summary>
-
-The current application entry point initializes the local `DataStore`. The application uses local TSV files for its data persistence.
-
-The MySQL connector library is present in the project, but the current runtime is not configured as a shared online MySQL database.
-
-</details>
+The MySQL connector library is included in the project, but the current runtime uses local `DataStore` storage.
 
 ---
 
-# ◈ A FINAL WORD
+# 🧑‍🎨 MEET THE CREATORS
 
 <div align="center">
 
-<img src="screenshots/landing-page.png" width="100%" alt="YapSpace Landing Page"/>
+## 💖 TEAM 04
 
-<br/><br/>
+# RO RO ROW YOUR CODE
 
-# YOUR THOUGHTS HAVE A PLACE HERE.
+*Three teammates. One creative journey.*
 
-### Your voice. Your ideas. Your space.
+</div>
 
-**YapSpace**
+| 🌟 MEMBER | 🎯 ROLE |
+|:---|:---|
+| **Doliente, Ronabel E.** | 👑 Team Leader |
+| **Ebora, Rodalyn R.** | 💻 Lead Programmer |
+| **Panganiban, Kristelle Mhae B.** | 🎨 UI Designer |
 
-*Share a little. Connect a lot.*
+### 🎓 ACADEMIC DETAILS
 
-<br/>
+**Institution:** Batangas State University – Alangilan Campus
+
+**Program:** Bachelor of Science in Information Technology
+
+**Instructor:** Ms. Fatima Marie P. Agdon
 
 ---
 
-**MADE WITH CREATIVITY, COLLABORATION & CODE.**
+# 🙏 SPECIAL THANKS
 
-*Team 04 — Ro Ro Row Your Code*
+We sincerely thank **Ms. Fatima Marie P. Agdon** for her guidance, encouragement, and valuable knowledge throughout the development of YapSpace.
+
+We also appreciate the teamwork, dedication, creativity, and effort of every member of Team 04.
+
+Every line of code, every design decision, and every challenge helped us grow as aspiring IT professionals.
+
+---
+
+<div align="center">
+
+<img src="screenshots/landing-page.png" width="100%" alt="YapSpace"/>
 
 <br/>
 
-[⬆ RETURN TO THE TOP](#y-a-p-s-p-a-c-e)
+# 🌈 THIS IS YAPSPACE.
+
+### YOUR THOUGHTS. YOUR SPACE. YOUR COMMUNITY.
+
+💜 Share a little.
+
+💙 Connect a lot.
+
+🧡 Be part of something.
+
+<br/>
+
+**MADE WITH ❤️ BY TEAM 04**
+
+*Ro Ro Row Your Code*
+
+<br/>
+
+[⬆️ BACK TO THE TOP](#-yapspace)
 
 </div>
