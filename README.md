@@ -1,376 +1,202 @@
-# 💬 YapSpace
-### Your thoughts have a place here.
-**Share a little. Connect a lot.**
+
+<!-- ========== ANIMATED HEADER ========== -->
 
 <p align="center">
-  <img src="screenshots/landing-page.png" alt="YapSpace Landing Page" width="100%">
+  <img
+    src="assets/yapspace-animated-banner.gif"
+    alt="YapSpace Animated Banner"
+    width="100%"
+  />
+</p>
+
+<h1 align="center">YapSpace</h1>
+
+<p align="center">
+  <strong>Your thoughts have a place here.</strong>
+  <br />
+  Share a little. Connect a lot.
 </p>
 
 <p align="center">
-  <a href="#-about-yapspace">ABOUT</a> •
-  <a href="#-features">FEATURES</a> •
-  <a href="#-screenshots">SCREENSHOTS</a> •
-  <a href="#-oop-principles">OOP PRINCIPLES</a> •
-  <a href="#-technologies-behind-the-space">TECHNOLOGIES</a> •
-  <a href="#-getting-started">GET STARTED</a> •
-  <a href="#-meet-the-team">OUR TEAM</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PROJECT-YapSpace-1C2B3A?style=for-the-badge" alt="YapSpace">
-  <img src="https://img.shields.io/badge/LANGUAGE-Java-E07A5F?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/CONCEPT-Object--Oriented%20Programming-C18163?style=for-the-badge" alt="OOP">
-  <img src="https://img.shields.io/badge/TEAM-4-E9E5D8?style=for-the-badge" alt="Team 4">
-</p>
-
-<p align="center">
-  <i>A little corner of the internet to share what's on your mind, express how you feel, and connect through everyday stories.</i>
+  <img src="https://img.shields.io/badge/Project-YapSpace-1e293b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" />
+  <img src="https://img.shields.io/badge/Status-Academic%20Project-bb6b4b?style=for-the-badge" />
 </p>
 
 ---
 
-## 🌿 About YapSpace
+<!-- ========== CLICKABLE NAVIGATION ========== -->
 
-**What if everyone had a place where their thoughts could be heard?**
-
-Introducing **YapSpace** — a Java-based social networking application designed to give users a welcoming digital space to express themselves, share experiences, and connect with others.
-
-Whether it's a random thought, a memorable experience, or something worth talking about, YapSpace encourages users to share their voices and interact through meaningful conversations.
-
-More than just a place to post, YapSpace is a community where every thought has a place and every interaction can start a connection.
-
-### ✨ Our Mission
-
-To provide a welcoming digital space where users can freely express their thoughts, feelings, and experiences while building meaningful interactions.
-
-### 🎯 Our Vision
-
-To create an engaging and community-centered online environment where people can connect, communicate, and feel heard through everyday conversations.
+<p align="center">
+  <a href="#-about-yapspace">About</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="#-object-oriented-programming">OOP Concepts</a> •
+  <a href="#-technologies-used">Technologies</a> •
+  <a href="#-meet-the-team">Team</a>
+</p>
 
 ---
 
-## 🚀 Features — Explore Your Space
+## 💬 About YapSpace
 
-**Everything you need to share, express, and connect.**
+YapSpace is a community-based social platform where users can share their thoughts, express themselves, and connect with others.
 
-| Feature | Description |
-|---|---|
-| 👤 **User Registration** | Create an account and become part of the community. |
-| 🔐 **User Login** | Access your personal account. |
-| 📰 **Community Feed** | Discover posts shared by other members. |
-| ✍️ **Create a Post** | Share thoughts, experiences, and ideas. |
-| 📝 **Edit and Delete Posts** | Manage your own published posts. |
-| 🏷️ **Post Categories** | Organize posts based on different topics. |
-| 😊 **Feelings** | Express your current emotion when creating a post. |
-| ❤️ **Reactions** | Respond through Support, Relate, and Encourage. |
-| 💬 **Comments** | Interact with posts and share your responses. |
-| 📌 **My Posts** | View and manage your own contributions. |
-| 🚪 **Logout** | End your account session. |
+Designed with a clean and welcoming interface, YapSpace gives every user a space to speak, share, and interact.
 
-### ❤️ Reactions that bring people together
+> Every thought deserves a place. Every voice deserves to be heard.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/❤️-Support-E07A5F?style=for-the-badge" alt="Support">
-  <img src="https://img.shields.io/badge/🔥-Relate-C18163?style=for-the-badge" alt="Relate">
-  <img src="https://img.shields.io/badge/⭐-Encourage-1C2B3A?style=for-the-badge" alt="Encourage">
-</p>
+## ✨ Features
 
-Because sometimes, a simple reaction can make someone's day.
+- 👤 **User Registration** – Create an account.
+- 🔐 **User Login** – Access your account securely.
+- 🏠 **Community Feed** – Explore posts shared by users.
+- ✍️ **Create a Post** – Share your thoughts with the community.
+- 📝 **Manage Posts** – Edit or delete your own posts.
+- 💭 **Comments** – Interact with shared posts.
+- ❤️ **Reactions** – Support, Relate, and Encourage posts.
+- 📂 **My Posts** – View your own published posts.
+- 🚪 **Logout** – End your current session.
 
-### 😊 Express how you feel
+## 📸 Screenshots
 
-`Happy` `Sad` `Angry` `Stressed` `Excited` `Tired` `Confused` `Neutral`
-
-### 🏷️ Share through different categories
-
-`School` `Family` `Friendship` `Relationship` `Mental Health` `Career` `Hobbies` `Personal` `Random Thoughts`
-
----
-
-## 🖼️ Screenshots — Take a Look Around
+<details>
+<summary>🏠 View Landing Page</summary>
 
 <p align="center">
-  <b>Four screens. One community. Endless things to share.</b>
+  <img src="screenshots/landing-page.png" alt="YapSpace Landing Page" width="90%" />
 </p>
-
-<details open>
-<summary><b>🏠 01 — Landing Page</b> | Where every conversation begins</summary>
-
-<p align="center">
-  <img src="screenshots/landing-page.png" alt="YapSpace Landing Page" width="100%">
-</p>
-
-A welcoming introduction to YapSpace, presenting its purpose and inviting users to become part of the community.
 </details>
 
 <details>
-<summary><b>🔐 02 — Login Page</b> | Your space is waiting for you</summary>
+<summary>🔐 View Login Page</summary>
 
 <p align="center">
-  <img src="screenshots/login-page.png" alt="YapSpace Login Page" width="100%">
+  <img src="screenshots/login-page.png" alt="YapSpace Login Page" width="90%" />
 </p>
-
-A clean and simple sign-in interface that allows registered members to access their accounts.
 </details>
 
 <details>
-<summary><b>📰 03 — Community Feed</b> | Where voices come together</summary>
+<summary>💬 View Community Feed</summary>
 
 <p align="center">
-  <img src="screenshots/community-feed.png" alt="YapSpace Community Feed" width="100%">
+  <img src="screenshots/community-feed.png" alt="YapSpace Community Feed" width="90%" />
 </p>
-
-The heart of YapSpace, where users can explore shared thoughts, react to posts, and join conversations.
 </details>
 
 <details>
-<summary><b>✍️ 04 — Create a Post</b> | Put it into words</summary>
+<summary>✍️ View Create a Post Page</summary>
 
 <p align="center">
-  <img src="screenshots/create-post.png" alt="YapSpace Create a Post" width="100%">
+  <img src="screenshots/create-post.png" alt="YapSpace Create a Post Page" width="90%" />
 </p>
-
-A space where users can write their thoughts, choose a category, and express their feelings before publishing.
 </details>
 
----
+## 🧠 Object-Oriented Programming
 
-## 🧩 OOP Principles — The Foundation Behind YapSpace
+YapSpace applies the four fundamental principles of Object-Oriented Programming.
 
-**Behind every feature is a structured program.**
+<details>
+<summary>1. 🔒 Encapsulation</summary>
 
-YapSpace applies the four fundamental principles of Object-Oriented Programming (OOP) to organize code, manage data, and structure application behavior.
+Encapsulation keeps data and the methods that work with it together inside a class. It also helps control access to an object's data.
 
-### 🔒 01. Encapsulation
-**Protecting data and controlling access.**
+**Application in YapSpace:** User and post-related data are organized within their respective classes.
+</details>
 
-Encapsulation combines data and the methods that operate on that data within a class. It also helps control how information is accessed and modified.
+<details>
+<summary>2. 🧬 Inheritance</summary>
 
-**Application in YapSpace:** User, post, comment, and reaction information can be organized within their respective classes, with access controlled through appropriate methods.
+Inheritance allows one class to acquire properties and methods from another class.
 
-### 🧬 02. Inheritance
-**Reusing properties and behaviors.**
+**Application in YapSpace:** Related classes can reuse shared properties and behaviors through inheritance where implemented.
+</details>
 
-Inheritance allows a child class to acquire properties and methods from a parent class, reducing repeated code.
+<details>
+<summary>3. 🔄 Polymorphism</summary>
 
-**Application in YapSpace:** Related classes can share common properties and behaviors through inheritance, allowing common functionality to be reused.
+Polymorphism allows the same method or operation to behave differently depending on the object using it.
 
-### 🎭 03. Polymorphism
-**One concept, different behaviors.**
+**Application in YapSpace:** Different objects can provide their own implementations of shared behaviors where applicable.
+</details>
 
-Polymorphism allows the same method or inherited method definition to behave differently depending on the object using it.
+<details>
+<summary>4. 🎭 Abstraction</summary>
 
-**Application in YapSpace:** Related classes can provide their own implementations of inherited methods whenever different behaviors are needed.
+Abstraction hides unnecessary implementation details and presents only the essential functionality.
 
-### 🧠 04. Abstraction
-**Showing what matters, hiding the complexity.**
+**Application in YapSpace:** The application organizes its internal operations into components so users can interact with features without needing to understand their internal code.
+</details>
 
-Abstraction focuses on essential operations while hiding unnecessary implementation details.
-
-**Application in YapSpace:** Application components can separate what an operation does from the internal details of how it is performed.
-
----
-
-## 🛠️ Technologies Behind the Space
+## 🛠️ Technologies Used
 
 | Technology | Purpose |
 |---|---|
-| ☕ **Java** | Main programming language |
-| 🧩 **Object-Oriented Programming** | Organizes the application's code |
-| 🌐 **HTML** | Structures web content |
-| 🎨 **CSS** | Designs and styles the user interface |
-| 📁 **TSV File Storage** | Stores application data locally |
-| 🐙 **Git and GitHub** | Version control and collaboration |
-| 💻 **Visual Studio Code** | Development environment |
+| Java | Main programming language |
+| HTML | Web page structure |
+| CSS | Interface styling |
+| TSV Files | Local data storage |
+| Git and GitHub | Version control and collaboration |
+| Visual Studio Code | Development environment |
 
----
+## 🚀 How to Run
 
-## 📂 Project Structure
-
-<details>
-<summary><b>📁 Click to explore the project directory</b></summary>
-
-```text
-YapSpace/
-│
-├── database/
-│
-├── lib/
-│   └── mysql-connector-j-26.10.0.jar
-│
-├── src/
-│   └── yapspace/
-│       ├── exception/
-│       ├── model/
-│       ├── repository/
-│       ├── service/
-│       ├── storage/
-│       ├── web/
-│       └── Main.java
-│
-├── screenshots/
-│   ├── landing-page.png
-│   ├── login-page.png
-│   ├── community-feed.png
-│   └── create-post.png
-│
-├── README.md
-├── YapSpace.java
-├── Dockerfile
-└── diagram (1).png
-```
-
-</details>
-
----
-
-## 💻 Getting Started — Run YapSpace Locally
-
-Want to explore YapSpace on your own computer? Follow these steps.
-
-<details>
-<summary><b>Step 1 — Prerequisites</b></summary>
-
-Make sure you have the following installed:
-
-- Java Development Kit (JDK)
-- Visual Studio Code or another Java-compatible IDE
-- Git (optional, for cloning the repository)
-
-</details>
-
-<details>
-<summary><b>Step 2 — Clone the Repository</b></summary>
-
-Open your terminal and run:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/dolienteronabels-gif/YapSpace.git
 ```
 
-Navigate to the project folder:
+**2. Open the project folder**
 
 ```bash
 cd YapSpace
 ```
 
-</details>
-
-<details>
-<summary><b>Step 3 — Compile the Java Files</b></summary>
-
-For Windows PowerShell:
+**3. Compile the Java files (PowerShell)**
 
 ```powershell
 New-Item -ItemType Directory -Force out
-
 $files = Get-ChildItem -Recurse src -Filter *.java | ForEach-Object { $_.FullName }
-
 javac -cp "lib\mysql-connector-j-26.10.0.jar" -d out $files
 ```
 
-</details>
-
-<details>
-<summary><b>Step 4 — Run YapSpace</b></summary>
-
-Execute the following command:
+**4. Run the application**
 
 ```powershell
 java -cp "out;lib\mysql-connector-j-26.10.0.jar" yapspace.Main
 ```
 
-</details>
+**5. Open YapSpace in your browser**
 
-<details>
-<summary><b>Step 5 — Open in Your Browser</b></summary>
-
-Once the application server starts, open your preferred browser and visit:
-
-**http://localhost:8080**
-
-You're now ready to explore YapSpace!
-
-To stop the application, press `Ctrl + C` in your terminal.
-
-</details>
-
----
-
-## 📌 Project Scope and Limitations
-
-YapSpace currently focuses on community interaction through posts, categories, feelings, reactions, and comments.
-
-The current version does not include:
-
-- Private messaging
-- Image uploads within posts
-- Post search
-- Post reporting
-
-**Storage information:** The application currently uses local file storage. Data is not automatically synchronized between different computers.
-
----
+```text
+http://localhost:8080
+```
 
 ## 👥 Meet the Team
 
-### Team 4 — Ro Ro Row Your Code
+**Team 4 — Ro Ro Row Your Code**
 
-<p align="center">
-  <i>Three minds. One vision. One community.</i>
-</p>
-
-| Team Member | Role |
+| Member | Role |
 |---|---|
-| **Doliente, Ronabel E.** | 👑 Team Leader |
-| **Ebora, Rodalyn R.** | 💻 Lead Programmer |
-| **Panganiban, Kristelle Mhae B.** | 🎨 UI Designer |
+| Doliente, Ronabel E. | Team Leader |
+| Ebora, Rodalyn R. | Lead Programmer |
+| Panganiban, Kristelle Mhae B. | UI Designer |
 
-**Course:** BS Information Technology  
 **Institution:** Batangas State University – Alangilan Campus  
-**Project:** YapSpace
+**Course:** Bachelor of Science in Information Technology  
+**Instructor:** Ms. Fatima Marie P. Agdon
+
+## 🙌 Acknowledgment
+
+This project is presented to our instructor as part of our academic requirements. We sincerely appreciate the guidance, knowledge, and support that helped us develop YapSpace.
 
 ---
 
-## 🙏 Acknowledgment
-
-We would like to express our sincere gratitude to our professor and instructor, **Ms. Fatima Marie P. Agdon**, for her guidance, knowledge, encouragement, and valuable insights throughout the development of this project.
-
-Her instruction and support helped us strengthen our understanding of Java programming and Object-Oriented Programming principles while giving us the opportunity to apply what we learned through the development of YapSpace.
-
-We would also like to recognize the dedication, cooperation, and teamwork of every member of Team 4. Every idea, contribution, and effort helped bring this project to life.
-
-**Thank you for being part of our learning journey!**
-
----
-
-## 💌 A Note from the Team
-
-We believe that everyone has a story worth sharing.
-
-Some thoughts are big. Some are simple. Some are difficult to express. But every thought deserves a space where it can be heard.
-
-YapSpace was created with one simple idea: meaningful connections can begin with something as small as a post, a comment, or a reaction.
-
-So go ahead.
-
-**Share a little. Connect a lot.**
-
 <p align="center">
-  <img src="screenshots/landing-page.png" alt="YapSpace — Your thoughts have a place here" width="85%">
-</p>
-
-<p align="center">
-  <b>YapSpace</b><br>
-  <i>Your thoughts have a place here.</i><br><br>
-  Made with ☕, creativity, and teamwork by<br>
-  <b>Team 4 — Ro Ro Row Your Code</b>
-</p>
-
-<p align="center">
-  ⭐ If you enjoyed exploring our project, consider giving this repository a star!
-</p>
-
-<p align="center">
-  <sub>© 2026 YapSpace | A Java Object-Oriented Programming Project</sub>
+  <strong>YapSpace</strong>
+  <br />
+  Your thoughts have a place here.
+  <br /><br />
+  <sub>Made with creativity, collaboration, and code. ❤️</sub>
 </p>
