@@ -1,160 +1,79 @@
 <div align="center">
 
-# 💬 YapSpace
-### *Where Thoughts, Threads, and Vibes Converge — Built from Scratch in Java*
+<br>
 
-[![Java](https://img.shields.io/badge/Java-OOP%20%26%20Web%20Server-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#)
-[![MySQL](https://img.shields.io/badge/MySQL-Connector%2FJ%2026.10.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
-[![Status](https://img.shields.io/badge/Project-OOP%20Showcase-FF6B6B?style=for-the-badge)](#)
+# ✦ 𝐘𝐚𝐩𝐒𝐩𝐚𝐜𝐞 ✦
+### *⚡ Where Thoughts Turn Into Threads, Feelings Into Vibes, and Java Into a Living Community ⚡*
 
-> *"A space to yap, share feelings, spark conversations, and react—engineered with clean Object-Oriented architecture from data models to web routes."*
+<br>
 
-[📸 Screenshots](#-app-gallery) • [🚀 Quick Start](#-quick-start) • [🖥️ Sample Output](#️-sample-output) • [🧱 OOP Blueprint](#-object-oriented-programming-oop-in-yapspace) • [🗺️ Project Map](#️-project-structure) • [👥 Team](#-meet-the-yapspace-crew)
+[![Java](https://img.shields.io/badge/☕_Java-OOP_%26_Custom_HTTP_Server-FF5E5B?style=for-the-badge)](#)
+[![MySQL](https://img.shields.io/badge/🗄️_MySQL-Connector%2FJ_26.10.0-00BBF9?style=for-the-badge)](#)
+[![Docker](https://img.shields.io/badge/🐳_Docker-Container_Ready-00F5D4?style=for-the-badge&labelColor=111827)](#)
+[![OOP](https://img.shields.io/badge/🧱_OOP-Encapsulation_·_Inheritance_·_Polymorphism_·_Abstraction-9B5DE5?style=for-the-badge)](#)
+
+<br>
+
+> *"Not just another app—it's a digital hangout where every **feeling** has a voice, every **post** sparks a thread, every **reaction** speaks volumes, and every **class** has a purpose."*
+
+<br>
+
+**[ ✨ Overview](#-what-makes-yapspace-tick)** • **[ 🖼️ Visual Tour](#-visual-tour)** • **[ 🖥️ Live Console Preview](#-sample-output)** • **[ 🧠 OOP Craft](#-how-we-wove-oop-into-yapspace)** • **[ 🗂️ Codebase Map](#-codebase-blueprint)** • **[ 🚀 Launchpad](#-quick-start)** • **[ 💖 Crew & Thanks](#-meet-the-yapspace-crew)**
+
+<br>
 
 </div>
 
 ---
 
-## ✨ What is YapSpace?
+## ✨ What Makes YapSpace Tick?
 
-**YapSpace** is a Java-powered social and discussion platform where users can register, log in, express **feelings** and **categories**, publish **posts**, exchange **comments**, and drop **reactions**[cite: 1]. It combines a custom Java web server layer, service and repository classes, and MySQL persistence (`schema.sql` and `mysql-connector-j-26.10.0.jar`) alongside storage/TSV helpers, a console demo, test runners, and Docker support[cite: 1].
+**YapSpace** is a full-stack Java social hangout crafted from the ground up so people can sign up, log in, pick their current **feeling** and **category**, start **yapping** in posts, chime in through **comments**, and express instant **reactions**[cite: 1]. Under the hood, it brings together a custom Java web server (`WebServer`, `Router`, `AuthController`, `PostController`, `Views`, `Html`, `Assets`), clean `Service` and `Repository` layers, `DataStore` and `Tsv` storage utilities, MySQL persistence (`schema.sql` + `mysql-connector-j-26.10.0.jar`), a console demo, test suites, and Docker deployment[cite: 1].
 
 <details>
-<summary><b>⚡ Interactive Feature Highlights (Click to Expand)</b></summary>
+<summary><b>🎛️ Tap to Unfold — Core Capabilities & Playable Modes</b></summary>
 
-* **User Accounts & Roles:** Supports `RegularUser` and `AdminUser` (`Role`), paired with password hashing (`PasswordHasher`), input validation (`Validator`), and session management (`Session`, `SessionManager`)
-* **Posts, Feelings & Reactions:** Connects `Post`, `Category`, `Feeling`, `Comment`, and `Reaction` (`ReactionType`) into an interactive discussion flow
-* **Layered Architecture:** Separates concerns across `model`, `repository`, `service`, `web`, `storage`, and `exception` packages
-* **Flexible Execution & Testing:** Ready to run via `Main.java`, `ConsoleDemo.java`, `start-yapspace.bat`, `Dockerfile`, and test scripts (`TestDatabase.java`, `TestUserLogin.java`, `TestUserRegistration.java`, `TestUserRepository.java`, `TestPostRepository.java`)[cite: 1]
+<br>
+
+* **Identity, Roles & Sessions:** Distinguish `RegularUser` and `AdminUser` (`Role`), protect credentials with `PasswordHasher`, guard inputs with `Validator`, and track active users via `Session` and `SessionManager`
+* **Expressive Social Loop:** Connect `Post`, `Category`, `Feeling`, `Comment`, and `Reaction` (`ReactionType`) for lively community interactions
+* **Multi-Layer Java Architecture:** Cleanly separated `model`, `repository`, `service`, `web`, `storage`, and `exception` packages plus JDBC database connectivity (`DatabaseConnection`)
+* **Run It Your Way:** Launch via `start-yapspace.bat`, `Main.java`, `ConsoleDemo.java`, or `Dockerfile`, and verify components using `TestDatabase`, `TestUserRegistration`, `TestUserLogin`, `TestUserRepository`, and `TestPostRepository`[cite: 1]
 
 </details>
 
 ---
 
-## 📸 App Gallery
+## 🖼️ Visual Tour
 
-| Landing Page | Login Page |
+> *Four snapshots from the YapSpace experience—from first impression to posting your next big thought.*[cite: 2]
+
+| 🌅 Landing Page | 🔐 Login Page |
 | :---: | :---: |
-| ![Landing Page](screenshots/landing-page.png) | ![Login Page](screenshots/login-page.png) |
-| **Welcome & Entry Experience** | **Authentication & Session Sign-In** |
+| <kbd>![Landing Page](screenshots/landing-page.png)</kbd> | <kbd>![Login Page](screenshots/login-page.png)</kbd> |
+| **First Look & Welcome Gateway** | **Account Sign-In & Session Entry** |
 
-| Community Feed | Create Post |
+| 💬 Community Feed | ✍️ Create Post |
 | :---: | :---: |
-| ![Community Feed](screenshots/community-feed.png) | ![Create Post](screenshots/create-post.png) |
-| **Live Threads, Feelings & Reactions** | **Composing & Publishing a New Post**[cite: 2] |
+| <kbd>![Community Feed](screenshots/community-feed.png)</kbd> | <kbd>![Create Post](screenshots/create-post.png)</kbd> |
+| **Threads, Feelings, Comments & Reactions** | **Crafting & Publishing New Yaps** |
 
 <details>
-<summary><b>🖼️ View Full-Size Screenshots Stacked (Click to Expand)</b></summary>
+<summary><b>🔍 Zoom Mode — Open Full-Width Gallery</b></summary>
 
-### Landing Page
-![Landing Page](screenshots/landing-page.png)
+<br>
 
-### Login Page
-![Login Page](screenshots/login-page.png)
+### 🌅 Landing Page
+<kbd>![Landing Page](screenshots/landing-page.png)</kbd>
 
-### Community Feed
-![Community Feed](screenshots/community-feed.png)
+### 🔐 Login Page
+<kbd>![Login Page](screenshots/login-page.png)</kbd>
 
-### Create Post
-![Create Post](screenshots/create-post.png)[cite: 2]
+### 💬 Community Feed
+<kbd>![Community Feed](screenshots/community-feed.png)</kbd>
 
-</details>
-
----
-
-## 🗺️ Architecture & Project Structure
-
-```text
-YapSpace-main/
-├── 📸 screenshots/                      # UI previews (landing, login, feed, create post)
-├── 🐳 Dockerfile & start-yapspace.bat     # Container & quick-launch scripts
-├── 🗄️ database/schema.sql               # MySQL database schema
-├── 📦 lib/mysql-connector-j-26.10.0.jar # JDBC driver
-├── 🖼️ diagram (1).png                   # System / class / flow diagram
-└── src/
-    ├── 🧪 Test*.java                    # Database, auth & repository test drivers
-    ├── database/DatabaseConnection.java # JDBC connection handling
-    └── yapspace/
-        ├── Main.java & ConsoleDemo.java # App & console entry points
-        ├── model/                     # Core domain entities, enums & roles
-        ├── repository/                # Data access (User, Post, Comment, Reaction)
-        ├── service/                   # Business logic, validation & hashing
-        ├── web/                       # WebServer, Router, Controllers, Views & Assets
-        ├── storage/                   # DataStore & TSV persistence helpers
-        └── exception/                 # Custom domain exceptions
-```[cite: 1, 2]
-
-<details>
-<summary><b>🔍 Explore Every Package at a Glance (Click to Expand)</b></summary>
-
-| Package / Path | Key Files | Role in YapSpace |
-| :--- | :--- | :--- |
-| `yapspace.model` | `BaseEntity`, `User`, `RegularUser`, `AdminUser`, `Role`, `Post`, `Comment`, `Reaction`, `ReactionType`, `Category`, `Feeling` | Core domain models representing users, roles, posts, comments, reactions, categories, and feelings |
-| `yapspace.repository` | `UserRepository`, `PostRepository`, `CommentRepository`, `ReactionRepository` | Data access layer managing persistence and retrieval for entities |
-| `yapspace.service` | `UserService`, `PostService`, `Validator`, `PasswordHasher` | Business logic, validation rules, and credential security |
-| `yapspace.web` | `WebServer`, `Router`, `Handler`, `WebRequest`, `WebResponse`, `AuthController`, `PostController`, `Session`, `SessionManager`, `Views`, `Html`, `Assets` | HTTP server, request routing, controllers, session handling, HTML rendering, and assets |
-| `yapspace.storage` | `DataStore`, `Tsv` | Local storage and TSV serialization utilities |
-| `yapspace.exception` | `YapException`, `AuthenticationException`, `ValidationException`, `PermissionException`, `NotFoundException` | Domain-specific exception hierarchy for clear error handling |
-| `database` & `lib` | `schema.sql`, `DatabaseConnection.java`, `mysql-connector-j-26.10.0.jar` | Database schema definition and MySQL JDBC connectivity[cite: 1]
-
-</details>
-
----
-
-## 🧱 Object-Oriented Programming (OOP) in YapSpace
-
-Here is how the four core pillars of **Object-Oriented Programming**—alongside custom exceptions and clean layering—are applied across **YapSpace**[cite: 1]:
-
-### 1. Encapsulation 🔒
-* **Where:** Domain models (`BaseEntity`, `User`, `RegularUser`, `AdminUser`, `Post`, `Comment`, `Reaction`, `Category`, `Feeling`), security/validation utilities (`PasswordHasher`, `Validator`), and web/session classes (`Session`, `SessionManager`, `WebRequest`, `WebResponse`)
-* **How we applied it:** Internal state and sensitive operations—such as entity fields, active user sessions, password hashing (`PasswordHasher`), and input validation (`Validator`)—are encapsulated within dedicated classes and accessed through controlled methods and service boundaries rather than exposed directly[cite: 1]
-
-### 2. Inheritance 🧬
-* **Where:** `BaseEntity` $\rightarrow$ domain entities (`User`, `Post`, `Comment`, etc.), `User` $\rightarrow$ `RegularUser` and `AdminUser` (paired with `Role`), and `YapException` $\rightarrow$ `AuthenticationException`, `ValidationException`, `PermissionException`, and `NotFoundException`
-* **How we applied it:**
-  * `BaseEntity` centralizes shared base properties for entities so subclasses don't duplicate common fields
-  * `RegularUser` and `AdminUser` extend `User` to specialize account types and role-based capabilities while inheriting core user attributes
-  * Specific exception classes extend `YapException` so distinct error scenarios share a common parent type while remaining clearly identifiable[cite: 1]
-
-### 3. Polymorphism 🎭
-* **Where:** `Handler` and `Router` in `yapspace.web`, user role specialization (`User`, `RegularUser`, `AdminUser`, `Role`), and service/repository interactions
-* **How we applied it:** `Router` dispatches incoming web requests through `Handler` implementations uniformly, allowing different routes and behaviors to be executed through a shared contract without tightly coupling routing logic to every individual endpoint[cite: 1]
-
-### 4. Abstraction 🧩
-* **Where:** `Handler`, `BaseEntity`, `YapException`, web controllers (`AuthController`, `PostController`), services (`UserService`, `PostService`), repositories (`UserRepository`, `PostRepository`, `CommentRepository`, `ReactionRepository`), storage (`DataStore`, `Tsv`), and `DatabaseConnection`
-* **How we applied it:** High-level components like `AuthController` and `PostController` interact with services and repositories without needing to manage raw SQL statements, connection details, password hashing mechanics, or low-level storage formats directly[cite: 1]
-
-<details>
-<summary><b>💡 Architecture & OOP Takeaways (Click to Expand)</b></summary>
-
-* **Custom Exception Hierarchy (`YapException`):** `AuthenticationException`, `ValidationException`, `PermissionException`, and `NotFoundException` give meaningful, structured error signals across authentication, validation, access control, and lookup flows
-* **Separation of Concerns (`Controller` $\rightarrow$ `Service` $\rightarrow$ `Repository`):** Keeps HTTP routing/views, business rules/validation, and data persistence modular and easy to maintain[cite: 1]
-
-</details>
-
----
-
-## 🚀 Quick Start
-
-<details>
-<summary><b>Option A: Run Locally (Java + MySQL / Batch Script)</b></summary>
-
-1. **Prepare the Database:** Import `database/schema.sql` into MySQL and update `src/database/DatabaseConnection.java` with your database credentials (`lib/mysql-connector-j-26.10.0.jar` is included in `lib/`)
-2. **Start the Application:** Run `start-yapspace.bat` from the project root
-3. **Compile & Run Entry Points or Tests:** Compile `src/` with `lib/mysql-connector-j-26.10.0.jar` in the classpath and run `yapspace.Main`, `yapspace.ConsoleDemo`, or any test runner (`TestDatabase`, `TestUserRegistration`, `TestUserLogin`, `TestUserRepository`, `TestPostRepository`)[cite: 1]
-
-</details>
-
-<details>
-<summary><b>Option B: Run with Docker 🐳</b></summary>
-
-```bash
-docker build -t yapspace .
-docker run -p 8080:8080 yapspace
-```
-
-*(Adjust the host port mapping if your `WebServer` uses a different port[cite: 1].)*
+### ✍️ Create Post
+<kbd>![Create Post](screenshots/create-post.png)</kbd>[cite: 2]
 
 </details>
 
@@ -163,48 +82,165 @@ docker run -p 8080:8080 yapspace
 ## 🖥️ Sample Output
 
 <details>
-<summary><b>📋 View Sample Console & Server Output (Click to Expand)</b></summary>
+<summary><b>⚡ Click to Inspect — Sample Startup & Feed Activity Output</b></summary>
+
+<br>
 
 ```text
-==================================================
-          💬 YAPSPACE — SYSTEM STARTUP
-==================================================
-[DB] Connected to MySQL database successfully.
-[AUTH] SessionManager initialized.
-[ROUTER] Registered routes: /, /login, /register, /feed, /post/new
-[SERVER] YapSpace WebServer is up and running!
+╔══════════════════════════════════════════════════════════════╗
+║                 💬 YAPSPACE ENGINE ONLINE                    ║
+╚══════════════════════════════════════════════════════════════╝
+  [DB]      MySQL connection pool ready (schema verified)
+  [SESSION] SessionManager initialized & active
+  [ROUTER]  Routes bound -> /, /login, /register, /feed, /post/new
+  [HTTP]    YapSpace WebServer listening and ready for requests!
 
---- Sample Post & Interaction ---
-Author   : @ronabel (RegularUser)
-Category : Campus Life | Feeling : 😄 Excited
-Title    : Finally seeing our OOP classes talk to each other!
-Comments : 2 | Reactions : 👍 5  ❤️ 4
+┌──────────────────────────────────────────────────────────────┐
+│  📌 SAMPLE THREAD PREVIEW                                    │
+│  Author   : @ronabel  [RegularUser]                          │
+│  Category : Campus Life   |   Feeling : 😄 Hyped             │
+│  Post     : "Our OOP classes finally connected cleanly!"     │
+│  Stats    : 💬 2 Comments   |   🔥 6 Reactions               │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-*(Tip: Replace or paste your actual console/terminal output here from `ConsoleDemo`, `Main`, or your `Test*.java` runs[cite: 1].)*
+*(Swap in your live terminal output anytime from `ConsoleDemo`, `Main`, or your `Test*.java` runs[cite: 1].)*
 
 </details>
 
 ---
 
-## 👥 Meet the YapSpace Crew
+## 🧠 How We Wove OOP Into YapSpace
 
-| Member | Role |
+Rather than dumping everything into a single script, we structured **YapSpace** around Object-Oriented principles so every class has a clear identity, responsibility, and relationship[cite: 1].
+
+### 🔒 Encapsulation — *Protecting State & Sensitive Logic*
+* **Where we applied it:** Domain models (`BaseEntity`, `User`, `RegularUser`, `AdminUser`, `Post`, `Comment`, `Reaction`, `Category`, `Feeling`), security & validation classes (`PasswordHasher`, `Validator`), and web/session components (`Session`, `SessionManager`, `WebRequest`, `WebResponse`)
+* **How we applied it:** We keep internal fields, session states, hashing routines, and validation checks tucked inside their respective classes and service boundaries instead of exposing raw internals—so `PasswordHasher` handles password hashing, `Validator` enforces input rules, and models/sessions guard their own state safely[cite: 1]
+
+### 🧬 Inheritance — *Sharing Foundations & Specializing Types*
+* **Where we applied it:**
+  * `BaseEntity` $\longrightarrow$ core domain entities (`User`, `Post`, `Comment`, etc.)
+  * `User` $\longrightarrow$ `RegularUser` and `AdminUser` (working alongside `Role`)
+  * `YapException` $\longrightarrow$ `AuthenticationException`, `ValidationException`, `PermissionException`, and `NotFoundException`
+* **How we applied it:** `BaseEntity` holds shared entity traits to avoid repetitive boilerplate, `RegularUser` and `AdminUser` build specialized user types on top of `User`, and our custom exception subclasses extend `YapException` so specific errors carry clear meaning while sharing a unified base exception type[cite: 1]
+
+### 🎭 Polymorphism — *One Contract, Many Behaviors*
+* **Where we applied it:** `Handler` and `Router` inside `yapspace.web`, user role handling (`User`, `RegularUser`, `AdminUser`, `Role`), and interactions across services and repositories
+* **How we applied it:** `Router` routes incoming requests through `Handler` implementations uniformly, letting distinct route handlers run through a common contract without hardcoding every endpoint's behavior directly inside the router[cite: 1]
+
+### 🧩 Abstraction — *Hiding Complexity Behind Clean Layers*
+* **Where we applied it:** `Handler`, `BaseEntity`, `YapException`, web controllers (`AuthController`, `PostController`), business services (`UserService`, `PostService`), data repositories (`UserRepository`, `PostRepository`, `CommentRepository`, `ReactionRepository`), storage utilities (`DataStore`, `Tsv`), and `DatabaseConnection`
+* **How we applied it:** `AuthController` and `PostController` orchestrate user actions and posts through services and repositories without getting tangled in raw SQL queries, connection setup, hashing internals, or file/TSV storage mechanics[cite: 1]
+
+<details>
+<summary><b>🎯 Bonus Design Highlights — Custom Exceptions & Layered Flow</b></summary>
+
+<br>
+
+* **Meaningful Error Types:** `AuthenticationException`, `ValidationException`, `PermissionException`, and `NotFoundException` make failures predictable and descriptive instead of relying on generic errors
+* **Clean Flow (`Web / Controller` $\rightarrow$ `Service` $\rightarrow$ `Repository` $\rightarrow$ `Database / Storage`):** Keeps HTTP handling, business logic, and persistence cleanly decoupled and easier to maintain[cite: 1]
+
+</details>
+
+---
+
+## 🗂️ Codebase Blueprint
+
+```text
+YapSpace-main/
+├── 📸 screenshots/                      # Landing, login, feed & create-post images
+├── 🐳 Dockerfile & start-yapspace.bat     # Container build & one-click Windows start
+├── 🗄️ database/schema.sql               # Relational MySQL schema
+├── 📦 lib/mysql-connector-j-26.10.0.jar # MySQL JDBC driver
+├── 🖼️ diagram (1).png                   # Visual architecture / flow diagram
+└── src/
+    ├── 🧪 Test*.java                    # DB, registration, login & repo test runners
+    ├── database/DatabaseConnection.java # JDBC connection provider
+    └── yapspace/
+        ├── Main.java & ConsoleDemo.java # Main & console entry points
+        ├── model/                     # Entities, enums & user roles
+        ├── repository/                # Data access repositories
+        ├── service/                   # Validation, hashing & business logic
+        ├── web/                       # Server, router, controllers, views & assets
+        ├── storage/                   # DataStore & TSV utilities
+        └── exception/                 # Custom exception hierarchy
+```[cite: 1, 2]
+
+<details>
+<summary><b>📂 Click to Inspect Every Package & Key File</b></summary>
+
+<br>
+
+| Package / Folder | Files Included | Purpose |
+| :--- | :--- | :--- |
+| `yapspace.model` | `BaseEntity`, `User`, `RegularUser`, `AdminUser`, `Role`, `Post`, `Comment`, `Reaction`, `ReactionType`, `Category`, `Feeling` | Models users, privileges, posts, comments, reactions, categories, and feelings |
+| `yapspace.repository` | `UserRepository`, `PostRepository`, `CommentRepository`, `ReactionRepository` | Handles storing and fetching entities |
+| `yapspace.service` | `UserService`, `PostService`, `Validator`, `PasswordHasher` | Applies business logic, checks inputs, and hashes passwords |
+| `yapspace.web` | `WebServer`, `Router`, `Handler`, `WebRequest`, `WebResponse`, `AuthController`, `PostController`, `Session`, `SessionManager`, `Views`, `Html`, `Assets` | Runs the web server, routes requests, manages sessions, and renders views/assets |
+| `yapspace.storage` | `DataStore`, `Tsv` | Provides local data store and TSV serialization support |
+| `yapspace.exception` | `YapException`, `AuthenticationException`, `ValidationException`, `PermissionException`, `NotFoundException` | Defines custom domain exceptions |
+| `database` & `lib` | `schema.sql`, `DatabaseConnection.java`, `mysql-connector-j-26.10.0.jar` | Sets up tables and connects Java to MySQL[cite: 1]
+
+</details>
+
+---
+
+## 🚀 Launchpad
+
+<details>
+<summary><b>💻 Run Locally (MySQL + Java / start-yapspace.bat)</b></summary>
+
+<br>
+
+1. **Load the Schema:** Run `database/schema.sql` in MySQL and configure your credentials in `src/database/DatabaseConnection.java` (`lib/mysql-connector-j-26.10.0.jar` is ready in `lib/`)
+2. **Start YapSpace:** Execute `start-yapspace.bat` from the project root
+3. **Compile & Run Entry Points or Tests:** Compile `src/` with `lib/mysql-connector-j-26.10.0.jar` on the classpath and run `yapspace.Main`, `yapspace.ConsoleDemo`, or any test class (`TestDatabase`, `TestUserRegistration`, `TestUserLogin`, `TestUserRepository`, `TestPostRepository`)[cite: 1]
+
+</details>
+
+<details>
+<summary><b>🐳 Run With Docker</b></summary>
+
+<br>
+
+```bash
+docker build -t yapspace .
+docker run -p 8080:8080 yapspace
+```
+
+*(Update the exposed port if your `WebServer` listens on a different port[cite: 1].)*
+
+</details>
+
+---
+
+## 💖 Meet the YapSpace Crew
+
+<div align="center">
+
+| ✨ Member | 🎖️ Role |
 | :--- | :--- |
 | **Doliente, Ronabel E.** | **Team Leader** |
 | **Ebora, Rodalyn R.** | **Lead Programmer** |
 | **Panganiban, Kristelle Mhae B.** | **UI Designer** |
 
+</div>
+
 ---
 
 ## 🙏 Acknowledgements
 
-* **To God Almighty:** Above all else, we lift our deepest gratitude to God for His constant guidance, strength, and grace, and for blessing us with wisdom, clarity, and knowledge every step of the way as we brought **YapSpace** to life.
-* **To Our Professor, Ms. Fatima Marie Agdon:** Thank you from the bottom of our hearts, Ma'am **Fatima Marie Agdon**, for your patience, dedication, and inspiring teachings in Object-Oriented Programming. Your guidance gave us confidence when bugs felt overwhelming and helped us see how clean code and thoughtful design come together. We truly appreciate the warmth and encouragement you pour into your students.
-* **To Our YapSpace Co-Crew:** Working side by side on **YapSpace** meant late-night brainstorms, shared laughs, debugging hurdles, and celebrating every small win together. Thank you for trusting one another, showing up when things got tough, and turning an idea into something we can all be proud of—this project carries a piece of each of our hearts.
+> *"Great projects aren't built by code alone—they're built by grace, guidance, patience, and people who care."*
+
+* **✨ To God Almighty:** Above all, we offer our deepest thanks to God for His continuous guidance, strength, and grace, and for blessing us with wisdom, clarity, and knowledge throughout every stage of creating **YapSpace**.
+* **💐 To Our Professor, Ms. Fatima Marie Agdon:** From the bottom of our hearts, thank you, Ma'am **Fatima Marie Agdon**, for your patience, dedication, and inspiring lessons in Object-Oriented Programming. Your encouragement kept us going through tough bugs and helped us appreciate clean, thoughtful code. The warmth and care you bring to your teaching truly stay with us.
+* **🤝 To Our YapSpace Co-Crew:** Building **YapSpace** together meant late nights, shared laughs, tricky bugs, and big smiles whenever something finally worked. Thank you for having each other's backs, staying patient, and turning an idea into a project we can all look back on with pride—this repo holds a piece of all of us.
 
 ---
 
 <div align="center">
-  <sub>Built with ☕, Java, and plenty of yapping by <b>YapSpace</b>.</sub>
+  <br>
+  <b>💬 YapSpace</b> • <i>Crafted with ☕, Java OOP, and heart.</i>
+  <br><br>
 </div>
