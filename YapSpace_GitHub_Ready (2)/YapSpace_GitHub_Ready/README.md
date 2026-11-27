@@ -115,7 +115,7 @@ More than a programming project, YapSpace carries a simple reminder: **every per
 We applied Object-Oriented Programming to organize our project into reusable classes, keep data protected, and make user behavior depend on account type.
 
 <details open>
-<summary><b>1. Encapsulation — Protecting data 🔒</b></summary>
+<summary><b>1. Encapsulation — Protecting data 🔒(Click here for more)</b></summary>
 
 **Where:** `User`, `Post`, `Comment`, `Reaction`, and other model classes.
 
@@ -126,7 +126,7 @@ We applied Object-Oriented Programming to organize our project into reusable cla
 
 
 <details>
-<summary><b>2. Inheritance — Reusing shared features 🧬</b></summary>
+<summary><b>2. Inheritance — Reusing shared features 🧬(Click here for more)</b></summary>
 
 **Where:** `RegularUser` and `AdminUser` extend the abstract `User` class. `Post`, `Comment`, and `Reaction` also extend `BaseEntity`.
 
@@ -135,7 +135,7 @@ We applied Object-Oriented Programming to organize our project into reusable cla
 
 
 <details>
-<summary><b>3. Abstraction — Showing essentials, hiding complexity 🎭</b></summary>
+<summary><b>3. Abstraction — Showing essentials, hiding complexity 🎭(Click here for more)</b></summary>
 
 **Where:** The abstract `User` class and `PasswordHasher` utility.
 
@@ -144,7 +144,7 @@ We applied Object-Oriented Programming to organize our project into reusable cla
 
 
 <details>
-<summary><b>4. Polymorphism — Different behavior, same interface 🔄</b></summary>
+<summary><b>4. Polymorphism — Different behavior, same interface 🔄(Click here for more)</b></summary>
 
 **Where:** `AdminUser` and `RegularUser` override methods from `User`.
 
@@ -153,7 +153,7 @@ We applied Object-Oriented Programming to organize our project into reusable cla
 
 
 <details>
-<summary><b>🧩 Other Java concepts used</b></summary>
+<summary><b>🧩 Other Java concepts used(Click here for more)</b></summary>
 
 - **Classes & Objects:** `User`, `Post`, `Comment`, `Reaction`, `Category`, and `Feeling` represent the application's entities.
 - **Methods:** Actions such as registration, login, post creation/editing/deletion, comments, and reactions are handled through methods.
